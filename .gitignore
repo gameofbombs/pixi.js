@@ -1,3 +1,6 @@
+# package.lock
+packages/**/package-lock.json
+
 # sublime text files
 *.sublime*
 *.*~*.TMP
@@ -7,6 +10,8 @@
 Thumbs.db
 Desktop.ini
 npm-debug.log
+lerna-debug.log
+.eslintcache
 
 # project files
 .project
@@ -22,9 +27,31 @@ npm-debug.log
 !.gitkeep
 *__temp
 node_modules
-docs/
-examples_old/
-bin/
+docs
+coverage
+coverage.lcov
+.nyc_output
+dist
+lib
+out
 
 # jetBrains IDE ignores
 .idea
+
+# VSCode ignores
+.vscode
+pixi.code-workspace
+
+# IntelliJ
+*.iml
+
+# webdoc api
+dist/docs/pixi.api.json
+
+# A folder that will be uploaded with every PR
+# This is useful for things like visual testing artifacts that can be used to debug a PR if it fails
+.pr_uploads
+
+# A folder that will be uploaded with every release
+# This is useful for things like docs and bundled versions of the library
+.s3_uploads

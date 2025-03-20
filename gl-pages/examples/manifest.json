@@ -1,0 +1,58 @@
+[
+    {
+        "id": "demos-basic",
+        "title": "Basic",
+        "items": [{
+            "title": "Container",
+            "entry": "container.js"
+        }]
+    },
+    {
+        "id": "mesh-and-shaders",
+        "title": "Mesh and Shaders",
+        "items": [
+            {
+                "title": "Textured Triangle",
+                "entry": "triangle-textured.js"
+            },
+            {
+                "title": "Transform feedback copy",
+                "entry": "tf-copy.js"
+            },
+            {
+                "title": "Texture 3D",
+                "entry": "texture-3d.js"
+            },
+            {
+                "title": "Texture 3D int",
+                "entry": "texture-3d-int.js"
+            },
+            {
+                "title": "Multidraw bvbi",
+                "entry": "multidraw-bvbi.js"
+            },
+            {
+                "title": "Trail",
+                "entry": "pass-trail.js"
+            }
+        ]
+    },
+    {
+        "id": "graphics",
+        "title": "Graphics",
+        "items": [
+            {
+                "title": "Simple",
+                "entry": "simple.js"
+            },
+            {
+                "title": "Advanced",
+                "entry": "advanced.js"
+            },
+            {
+                "title": "Dynamic",
+                "entry": "dynamic.js"
+            }
+        ]
+    }
+]
